@@ -1,0 +1,78 @@
+/* advantage */
+
+.advantage-list {
+  padding-top: 94px;
+
+  @media screen and (min-width: $mobile-breakpoint) {
+    width: $mobile-breakpoint;
+  }
+
+  @media screen and (min-width: $tablet-breakpoint) {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: $tablet-breakpoint;
+    margin: -15px;
+  }
+
+  @media screen and (min-width: $desktop-breakpoint) {
+    width: $desktop-breakpoint;
+  }
+}
+
+.advantage-list .item {
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: $mobile-breakpoint) {
+    width: 450px;
+    height: 226px;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: $tablet-breakpoint) {
+    height: 251px;
+    width: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
+  }
+
+  @media screen and (min-width: $desktop-breakpoint) {
+    width: calc((100% - 8 * 15px) / 4);
+    margin: 15px;
+  }
+}
+
+.advantage-svg-div {
+  display: flex;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: $mobile-breakpoint) {
+    width: 450px;
+  }
+
+  @media screen and (min-width: $tablet-breakpoint) {
+    width: 354px;
+  }
+
+  @media screen and (min-width: $desktop-breakpoint) {
+    width: 270px;
+  }
+}
+
+.icon-advantage {
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin: auto;
+}
+
+.advantages {
+  margin-bottom: 10px;
+
+  @media screen and (max-width: $tablet-breakpoint - 1px) {
+    text-align: center;
+  }
+}

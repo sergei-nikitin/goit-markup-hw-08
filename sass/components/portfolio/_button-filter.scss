@@ -1,0 +1,35 @@
+.filter-btn {
+  padding-top: 93px;
+  padding-bottom: 50px;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.btn-list {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-list .item + .item {
+  margin-left: 8px;
+}
+
+.button-filter {
+  padding: 6px 22px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  min-width: 73px;
+
+  color: $primary-text-color;
+  background-color: #f5f4fa;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  background-color: $accent-color;
+  color: $button-text-color;
+}

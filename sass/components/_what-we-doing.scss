@@ -1,0 +1,44 @@
+/* directions */
+
+.what-we-doing {
+  @media screen and (max-width: $desktop-breakpoint - 1px) {
+    display: none;
+  }
+}
+
+.directions-list .item {
+  display: inline-flex;
+  flex-direction: row;
+  width: 370px;
+  height: 294px;
+}
+
+.directions-list .item + .item {
+  margin-left: 26px;
+}
+
+.doing {
+  position: relative;
+}
+
+.text-doing {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: #ffffff;
+  text-align: center;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  opacity: 0;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.doing:hover .text-doing,
+.doing:focus .text-doing {
+  opacity: 1;
+  /* transition: 250ms display linear; */
+}

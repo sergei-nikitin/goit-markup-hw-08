@@ -1,0 +1,86 @@
+// @import "./utils/variables";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding-top: 80px;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  color: $primary-text-color;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+* :focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+.section {
+  padding-bottom: 94px;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: $desktop-breakpoint) {
+    margin-bottom: 50px;
+  }
+}
+
+.conteiner {
+  /* outline: 2px solid tomato; */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media screen and (min-width: $mobile-breakpoint) {
+    width: $mobile-breakpoint;
+  }
+
+  @media screen and (min-width: $tablet-breakpoint) {
+    width: $tablet-breakpoint;
+  }
+
+  @media screen and (min-width: $desktop-breakpoint) {
+    width: $desktop-breakpoint;
+  }
+}
