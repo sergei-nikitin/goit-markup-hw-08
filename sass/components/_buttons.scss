@@ -4,6 +4,10 @@
   margin: 0;
   border: none;
   background-color: transparent;
+
+  @media screen and (min-width: $tablet-breakpoint) {
+    display: none;
+  }
 }
 
 .button-hero {

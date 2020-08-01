@@ -19,7 +19,7 @@
   flex-wrap: wrap;
   // width: 100%;
 
-  @media screen and (max-width: $mobile-breakpoint - 1px) {
+  @media screen and (min-width: $mobile-breakpoint) {
     width: $mobile-breakpoint;
   }
   @media screen and (min-width: $tablet-breakpoint) {
@@ -95,6 +95,9 @@
 .footext {
   color: #fff;
 }
+.fta {
+  width: 232px;
+}
 
 .foot-link {
   margin-bottom: 9px;
@@ -159,6 +162,10 @@
 
   width: 100%;
 
+  @media screen and (min-width: $tablet-breakpoint) {
+    width: 450px;
+  }
+
   @media screen and (min-width: $desktop-breakpoint) {
     display: block;
     width: 570px;
@@ -174,6 +181,8 @@
 }
 
 .form-footer {
+  width: 100%;
+
   @media screen and (min-width: $desktop-breakpoint) {
     display: inline-flex;
     flex-direction: row;
@@ -182,7 +191,7 @@
 
 .input-email {
   height: 50px;
-  width: 450px;
+  width: 100%;
 
   margin-bottom: 20px;
   padding-left: 16px;
@@ -193,8 +202,13 @@
   border-radius: 4px;
   background-color: #2f303a;
 
+  @media screen and (min-width: $mobile-breakpoint) {
+    width: 450px;
+  }
+
   @media screen and (min-width: $desktop-breakpoint) {
     width: 358px;
+    margin-left: 0;
     margin-right: 12px;
   }
 }
