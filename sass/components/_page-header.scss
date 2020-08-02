@@ -193,7 +193,7 @@
     align-items: center;
   }
 
-  @madia screen and (min-width: $desktop-breakpoint) {
+  @media screen and (min-width: $desktop-breakpoint) {
     display: flex;
     flex-direction: row;
   }

@@ -20,13 +20,13 @@
   // width: 100%;
 
   @media screen and (min-width: $mobile-breakpoint) {
-    width: $mobile-breakpoint;
+    max-width: $mobile-breakpoint;
   }
   @media screen and (min-width: $tablet-breakpoint) {
-    width: $tablet-breakpoint;
+    max-width: $tablet-breakpoint;
   }
   @media screen and (min-width: $desktop-breakpoint) {
-    width: $desktop-breakpoint;
+    max-width: $desktop-breakpoint;
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;

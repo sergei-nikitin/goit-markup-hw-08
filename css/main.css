@@ -88,19 +88,19 @@ h3 {
 
 @media screen and (min-width: 480px) {
   .conteiner {
-    width: 480px;
+    max-width: 480px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .conteiner {
-    width: 768px;
+    max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .conteiner {
-    width: 1200px;
+    max-width: 1200px;
   }
 }
 
@@ -301,7 +301,7 @@ h3 {
   }
 }
 
-@madia screen and (min-width: $desktop-breakpoint) {
+@media screen and (min-width: 1200px) {
   .auth-nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -786,7 +786,7 @@ h3 {
 
 @media screen and (min-width: 480px) {
   .advantage-list {
-    width: 480px;
+    max-width: 480px;
   }
 }
 
@@ -797,14 +797,14 @@ h3 {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    width: 768px;
+    max-width: 768px;
     margin: -15px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .advantage-list {
-    width: 1200px;
+    max-width: 1200px;
   }
 }
 
@@ -960,19 +960,19 @@ h3 {
 
 @media screen and (min-width: 480px) {
   .comand-conteiner {
-    width: 480px;
+    max-width: 480px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .comand-conteiner {
-    width: 768px;
+    max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .comand-conteiner {
-    width: 1200px;
+    max-width: 1200px;
     padding-bottom: 94px;
     padding-top: 94px;
   }
@@ -1133,7 +1133,7 @@ h3 {
 
 @media screen and (min-width: 480px) {
   .customers-list {
-    width: 480px;
+    max-width: 480px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1145,13 +1145,13 @@ h3 {
 
 @media screen and (min-width: 768px) {
   .customers-list {
-    width: 768px;
+    max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .customers-list {
-    width: 1200px;
+    max-width: 1200px;
   }
 }
 
@@ -1255,19 +1255,19 @@ h3 {
 
 @media screen and (min-width: 480px) {
   .main-div {
-    width: 480px;
+    max-width: 480px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .main-div {
-    width: 768px;
+    max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .main-div {
-    width: 1200px;
+    max-width: 1200px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;

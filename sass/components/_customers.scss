@@ -6,18 +6,18 @@
   }
 
   @media screen and (min-width: $mobile-breakpoint) {
-    width: $mobile-breakpoint;
+    max-width: $mobile-breakpoint;
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
   }
 
   @media screen and (min-width: $tablet-breakpoint) {
-    width: $tablet-breakpoint;
+    max-width: $tablet-breakpoint;
   }
 
   @media screen and (min-width: $desktop-breakpoint) {
-    width: $desktop-breakpoint;
+    max-width: $desktop-breakpoint;
   }
 }
 .customers-list .item {

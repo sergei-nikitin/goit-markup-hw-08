@@ -4,19 +4,19 @@
   padding-top: 94px;
 
   @media screen and (min-width: $mobile-breakpoint) {
-    width: $mobile-breakpoint;
+    max-width: $mobile-breakpoint;
   }
 
   @media screen and (min-width: $tablet-breakpoint) {
     display: flex;
     flex-wrap: wrap;
 
-    width: $tablet-breakpoint;
+    max-width: $tablet-breakpoint;
     margin: -15px;
   }
 
   @media screen and (min-width: $desktop-breakpoint) {
-    width: $desktop-breakpoint;
+    max-width: $desktop-breakpoint;
   }
 }
 
