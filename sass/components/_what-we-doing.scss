@@ -1,4 +1,10 @@
 /* directions */
+.section-what-we-doing {
+  padding-bottom: 94px;
+  @media screen and (max-width: $desktop-breakpoint) {
+    padding-bottom: 0;
+  }
+}
 
 .what-we-doing {
   @media screen and (max-width: $desktop-breakpoint - 1px) {

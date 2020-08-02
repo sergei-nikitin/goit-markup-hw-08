@@ -152,7 +152,7 @@
       </section>
 
       <!--Чем мы занимаемся-->
-      <section class="section">
+      <section class="section-what-we-doing">
         <div class="conteiner what-we-doing">
           <h2 class="section-title">Чем мы занимаемся</h2>
           <div class="directions-list">
@@ -207,11 +207,42 @@
           <h2 class="section-title">Наша команда</h2>
           <ul class="comand-list">
             <li class="item">
-              <img
-                class="foto-comand"
-                src="./images/img.jpg"
-                alt="фото дизайнера"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/nikolai-mob.jpg    1x,
+                    ./images/nikolai-mob@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="
+                    ./images/nikolai-desc.jpg    1x,
+                    ./images/nikolai-desc@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/nikolai-tab.jpg    1x,
+                    ./images/nikolai-tab@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <img
+                  class="foto-comand"
+                  src="./images/img.jpg"
+                  alt="фото дизайнера"
+                />
+              </picture>
+
+              <!-- <picture>
+  <source srcset="./image/john-smith-mob.jpg 1x, ./image/john-smith-mob@2x.jpg 2x" media="(max-width: 767px)" />
+  <source srcset="./images/john-smith-desc.jpg 1x, ./image/john-smith-desc@2x.jpg 2x" media="(min-width: 1200px)" />
+  <source srcset="./images/john-smith-tab.jpg 1x, ./image/john-smith-tab@2x.jpg 2x" media="(min-width: 768px)" />
+  <img src="./images/john-smith.jpg" width="450" height="320" alt="Фото Джон Смит" />
+</picture> -->
+
               <p class="name-member">Николай Кучеренко</p>
               <p class="prof">Product Designer</p>
               <ul class="social-networks">
@@ -242,12 +273,30 @@
                 </li>
               </ul>
             </li>
+
             <li class="item">
-              <img
-                class="foto-comand"
-                src="./images/img1.jpg"
-                alt="фото разработчика"
-              />
+              <picture>
+                <source
+                  srcset="./images/olga-mob.jpg 1x, ./images/olga-mob@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="
+                    ./images/olga-desc.jpg    1x,
+                    ./images/olga-desc@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/olga-tab.jpg 1x, ./images/olga-tab@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <img
+                  class="foto-comand"
+                  src="./images/img1.jpg"
+                  alt="фото разработчика"
+                />
+              </picture>
               <p class="name-member">Ольга Иванова</p>
               <p class="prof">Frontend Developer</p>
               <ul class="social-networks">
@@ -280,11 +329,35 @@
             </li>
 
             <li class="item">
-              <img
-                class="foto-comand"
-                src="./images/img2.jpg"
-                alt="фото маркетолога"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/andrei-mob.jpg    1x,
+                    ./images/andrei-mob@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="
+                    ./images/andrei-desc.jpg    1x,
+                    ./images/andrei-desc@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/andrei-tab.jpg    1x,
+                    ./images/andrei-tab@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <img
+                  class="foto-comand"
+                  src="./images/img2.jpg"
+                  alt="фото маркетолога"
+                />
+              </picture>
+
               <p class="name-member">Андрей Шевченко</p>
               <p class="prof">Marketing</p>
               <ul class="social-networks">
@@ -317,11 +390,29 @@
             </li>
 
             <li class="item">
-              <img
-                class="foto-comand"
-                src="./images/img3.jpg"
-                alt="фото дизайнера"
-              />
+              <picture>
+                <source
+                  srcset="./images/ivan-mob.jpg 1x, ./images/ivan-mob@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="
+                    ./images/ivan-desc.jpg    1x,
+                    ./images/ivan-desc@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/ivan-tab.jpg 1x, ./images/ivan-tab@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <img
+                  class="foto-comand"
+                  src="./images/img3.jpg"
+                  alt="фото дизайнера"
+                />
+              </picture>
+
               <p class="name-member">Иван Николаев</p>
               <p class="prof">UI Designer</p>
               <ul class="social-networks">
