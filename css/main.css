@@ -291,8 +291,6 @@ h3 {
 
 @media screen and (min-width: 768px) {
   .auth-nav {
-    padding-top: 32px;
-    padding-bottom: 32px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -336,8 +334,10 @@ h3 {
           align-items: center;
 }
 
-.auth-nav .item:not(:last-child) {
-  margin-bottom: 16px;
+@media screen and (max-width: 1199px) {
+  .auth-nav .item:not(:last-child) {
+    margin-bottom: 16px;
+  }
 }
 
 @media screen and (min-width: 768px) {

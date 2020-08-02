@@ -186,9 +186,8 @@
   // align-items: center;
 
   @media screen and (min-width: $tablet-breakpoint) {
-    // display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    // padding-top: 32px;
+    // padding-bottom: 32px;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -214,8 +213,11 @@
 .auth-nav .link {
   align-items: center;
 }
-.auth-nav .item:not(:last-child) {
-  margin-bottom: 16px;
+
+@media screen and (max-width: $desktop-breakpoint - 1px) {
+  .auth-nav .item:not(:last-child) {
+    margin-bottom: 16px;
+  }
 }
 
 .auth-nav .item {
