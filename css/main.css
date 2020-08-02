@@ -362,6 +362,18 @@ h3 {
   padding-bottom: 94px;
 }
 
+@media screen and (min-device-pixel-ratio: 1), screen and (-webkit-min-device-pixel-ratio: 1), screen and (min-resolution: 96dpi), screen and (min-resolution: 1dppx) {
+  .box {
+    background-image: url("../images/hero-desc.jpg");
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .box {
+    background-image: url("../images/hero-desc@x2.jpg");
+  }
+}
+
 .hero-title {
   /* position: absolute;
   width: 696px;
@@ -1305,6 +1317,7 @@ h3 {
 @media screen and (min-width: 1200px) {
   .cont-address {
     display: block;
+    margin-bottom: 0;
   }
 }
 
@@ -1563,8 +1576,14 @@ h3 {
 .item-portfolio {
   border: 1px solid #eeeeee;
   margin-bottom: 30px;
-  width: 450px;
+  width: 100%;
   height: 404px;
+}
+
+@media screen and (min-width: 480px) {
+  .item-portfolio {
+    width: 450px;
+  }
 }
 
 @media screen and (min-width: 768px) {
